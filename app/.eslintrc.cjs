@@ -37,6 +37,9 @@ module.exports = {
     "no-shadow": "off",
     "react/function-component-definition": [2, {"namedComponents": "arrow-function", "unnamedComponents": "arrow-function"}],
     "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-nested-ternary": "off",
+    "react/no-array-index-key": "off",
   },
 };
 

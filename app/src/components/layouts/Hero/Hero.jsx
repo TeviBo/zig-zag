@@ -1,15 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {Image} from "@nextui-org/react";
 import './Hero.css';
-import HeroBg from '../../../assets/images/unnamed.svg';
+import HeroBg from '../../../assets/images/zz-hero.jpg';
 
 const Hero = () => (
   <section className="hero">
   {/* Background container */}
   <div
     className="hero-background"
-    style={{ backgroundImage: `url(${HeroBg})`, backgroundRepeat: 'no-repeat' }}
    />
 
   {/* Content container */}
