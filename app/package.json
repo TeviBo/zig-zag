@@ -11,8 +11,7 @@
     "prettier": "prettier src --check --write",
     "format": "npm run prettier && npm run lint",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.22.11",
