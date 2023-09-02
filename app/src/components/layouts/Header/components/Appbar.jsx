@@ -50,7 +50,7 @@ const AppBar = () => {
             Features
           </Link>
         </NavbarItem>
-        
+
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
             Customers
@@ -62,7 +62,7 @@ const AppBar = () => {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
+      <NavbarContent justify="space-between">
       <Input
           classNames={{
             base: "max-w-full sm:max-w-[10rem] h-10 ml-4",
@@ -75,6 +75,8 @@ const AppBar = () => {
           startContent={<SearchIcon size={18} />}
           type="search"
         />
+      </NavbarContent>
+      <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <Link href="#" className="text-white">Login</Link>
         </NavbarItem>
