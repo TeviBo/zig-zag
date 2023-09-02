@@ -1,7 +1,9 @@
-import AppBar from "./Appbar";
+import AppBar from "./components/Appbar";
 
 const Header = () => (
-      <AppBar />
+  <section className="header">
+    <AppBar />
+  </section>
   )
 
 export default Header;
